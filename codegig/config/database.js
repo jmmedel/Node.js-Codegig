@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-module.exports =  new Sequelize('codegig', 'postgres', '123456', {
+module.exports =  new Sequelize('codegig', 'postgres', '09184645154', {
   host: 'localhost',
   dialect: 'postgres',
   operatorsAliases: false,
@@ -11,4 +11,5 @@ module.exports =  new Sequelize('codegig', 'postgres', '123456', {
     acquire: 30000,
     idle: 10000
   },
+
 });
